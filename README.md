@@ -12,14 +12,11 @@ Android Log Utils
 #### 配置
 ```
 buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.0'
+        ...
         // 添加aspectjx插件
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'
+        ...
     }
 }
 ```
@@ -28,24 +25,6 @@ buildscript {
 apply plugin: 'com.android.application'
 // 使用aspectjx插件
 apply plugin: 'com.hujiang.android-aspectjx'
-
-android {
-    compileSdkVersion 28
-    defaultConfig {
-        applicationId "com.lm.sample"
-        minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-    }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-}
 
 dependencies {
     ...
