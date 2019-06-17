@@ -1,13 +1,13 @@
 # LmLog
 Android Log Utils
 
--[x] 自定义Adapter决定日志在哪里输出，输出以及格式。
--[x] 可以通过@Log注解的方法和类（@Log注释的方法和类会输出日志）
--[x] 点击事件切面（点击事件会输出日志）
--[x] Activity生命周期切面（Activity生命周期会输出日志）
--[x] Fragment生命周期切面（Fragment生命周期会输出日志）
--[x] BroadcastReceiver切面（BroadcastReceiver的onReceive方法会输出日志）
--[x] Service生命周期切面（Service生命周期会输出日志）
+- [x] 自定义Adapter决定日志在哪里输出，输出以及格式。
+- [x] 可以通过@Log注解的方法和类（@Log注释的方法和类会输出日志）
+- [x] 点击事件切面（点击事件会输出日志）
+- [x] Activity生命周期切面（Activity生命周期会输出日志）
+- [x] Fragment生命周期切面（Fragment生命周期会输出日志）
+- [x] BroadcastReceiver切面（BroadcastReceiver的onReceive方法会输出日志）
+- [x] Service生命周期切面（Service生命周期会输出日志）
 
 #### 配置
 ```
